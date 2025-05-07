@@ -41,7 +41,7 @@ class PipelineCdkStack(Stack):
 
         source_action = codepipeline_actions.CodeStarConnectionsSourceAction(
           action_name = 'GitHub',
-          owner = "testedevops",
+          owner = "leco85",
           repo = "cicd-workshop",
           output = source_output,
           branch = "main",
